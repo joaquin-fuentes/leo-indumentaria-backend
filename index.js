@@ -6,8 +6,7 @@ import * as dotenv from "dotenv"
 import "./src/database/dbConnection"
 import prendasRouter from "./src/routes/prendas.routes"
 import usuariosRouter from "./src/routes/usuarios.routes"
-
-
+import mensajesRouter from "./src/routes/mensajes.routes"
 
 
 //crear una instancia de express
@@ -36,3 +35,4 @@ app.use(express.static(path.join(__dirname,"/public")))
 
 app.use("/api", prendasRouter)
 app.use("/api", usuariosRouter)
+app.use("/api", mensajesRoutes)
