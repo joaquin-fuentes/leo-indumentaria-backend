@@ -35,4 +35,4 @@ app.use(express.static(path.join(__dirname,"/public")))
 
 app.use("/api", prendasRouter)
 app.use("/api", usuariosRouter)
-app.use("/api", mensajesRoutes)
+app.use("/api", mensajesRouter)

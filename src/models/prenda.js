@@ -12,25 +12,24 @@ const prendaSchema = new Schema({
         type: String,
         required: true,
     },
+    estilo: {
+        type: String
+    },
     tipo: {
-        type: String,
-        required: true,
+        type: String
     },
     descuento: {
-        type: String,
-        required: true,
+        type: String
     },
     destacado: {
-        type: String,
-        required: true,
+        type: String
     },
     precio: {
         type: Number,
         required: true,
     },
     precioxmayor: {
-        type: Number,
-        required: true,
+        type: Number
     },
     imagen: {
         type: String,
@@ -41,20 +40,20 @@ const prendaSchema = new Schema({
         required: true
     },
     color:{
-        type: String,
-        required: true,
+        type: String
     },
     talle:{
         type: String,
         required: true,
     },
     descripcion: {
-        type: String,
-        required: true
+        type: String
     },
     otro: {
-        type: String,
-        required: true
+        type: String
+    },
+    otro2: {
+        type: String
     }
 
 })
