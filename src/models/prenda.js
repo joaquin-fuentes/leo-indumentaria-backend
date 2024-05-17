@@ -18,8 +18,11 @@ const prendaSchema = new Schema({
     tipo: {
         type: String
     },
-    descuento: {
+    sexo: {
         type: String
+    },
+    descuento: {
+        type: Number
     },
     destacado: {
         type: String
